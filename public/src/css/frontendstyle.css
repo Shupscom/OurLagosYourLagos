@@ -1,0 +1,431 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-family:  "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.dropdown-menu {
+    background: #000000;
+}
+.dropdown-menu>li>a{
+    color: #ffffff;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: #fff;
+    color: #000000;
+    font-weight: 400;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: #fff;
+    color: #000000;
+    font-weight: 400;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.logo{
+    font-size: 110px;
+    color: red;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.logo2{
+    font-size: 110px;
+    color:#2c057a;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+.fa{
+    width: 100%;
+}
+.small-logo{
+    color: red;
+    text-align: center;
+}
+.icon-logo{
+    color: #564363;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    background-color: #000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: #000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #000000;
+    background: #fff;
+    font-weight: 700;
+}
+.navbar-default .navbar-nav>li>a:active {
+    color: #fff;
+    font-weight: 700;
+}
+.navbar-default .navbar-nav>li>a:focus{
+    color: #000;
+    background: #fff;
+    font-weight: 700;
+}
+.navbar-nav>li>a {
+    line-height: normal;
+}
+.top-heading{
+    font-size:34px;
+    color:red;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-family:  "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif; ;
+}
+.features-heading{
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.features-para{
+    text-align: center;
+    color:#fff;
+    background-color: RED;
+    padding: 5px;
+    font-size: 1em;
+    border: 2px solid #fff;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 4px 4px 2px #000;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+
+}
+.icon-feature{
+    color: #000000;
+}
+.icon-feature:hover{
+    color: red;
+}
+.policy{
+    color:#fff;
+    text-align: center;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+.policy-heading{
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #fff200;
+    padding:10px;
+    box-shadow: 2px 2px 2px #000;
+}
+.bedrock{
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.top{
+    font-size: 1.25em;
+    color: #ffffff;
+    background: red;
+    line-height: 1.6;
+    height:40px;
+    margin-bottom: 0;
+    box-shadow: 2px 2px 2px #000;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+    letter-spacing: 2px
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color:#fff;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    /*background: #fff;*/
+    /*background: rgba(255,255,255,0.9);*/
+   background:  #000;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+footer p >a {
+    color:#fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+footer p >a:hover {
+    color:#fff;
+    text-decoration: none;
+    font-weight: 400;
+}.copy{
+    font-size: 1.1em;
+    font-weight: 400;
+
+}
+footer h4{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    color: #fff200;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+     .top{
+         background-color: #000;
+         margin-bottom: 5px;
+         border-color: #ffffff;
+         box-shadow: none;
+     }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 7px 0 20px;
+        height: 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        /*background: #fff;*/
+        /*background: rgba(255,255,255,0.9);*/
+        background: #000000;
+
+    }
+
+    .nav>li>a {
+        /*padding: 35px;*/
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #000000;
+        background: #fff;
+        font-weight: 700;
+    }
+    .navbar-default .navbar-nav>li>a:active {
+        color: #fff;
+        font-weight: 700;
+    }
+    .navbar-default .navbar-nav>li>a:focus{
+        color: #fff;
+        font-weight: 700;
+    }
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.2em;
+    }
+    .navbar-default .navbar-brand {
+        color: #fff;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+/* css for social media*/
+.social-google {
+    background-color: #da573b;
+    border-color: #be5238;
+}
+.social-google:hover{
+    background-color: #be5238;
+    border-color: #9b4631;
+}
+
+.social-twitter {
+    background-color: #1daee3;
+    border-color: #3997ba;
+}
+.social-twitter:hover {
+    background-color: #3997ba;
+    border-color: #347b95;
+}
+
+.social-facebook {
+    background-color: #4c699e;
+    border-color: #47618d;
+}
+.social-facebook:hover {
+    background-color: #47618d;
+    border-color: #3c5173;
+}
+
+.social-linkedin {
+    background-color: #4875B4;
+    border-color: #466b99;
+}
+.social-linkedin:hover {
+    background-color: #466b99;
+    border-color: #3b5a7c;
+}
+.social-whatsapp{
+    background-color: #4dc247;
+    border-color: #4dc247;
+}
+.social-whatsapp:hover{
+    background-color: #4dc247;
+    border-color: #4dc247;
+}
+.social-login-btn {
+    margin: 5px;
+    /*width: 20%;*/
+    /*font-size: 250%;*/
+    padding: 0;
+}
